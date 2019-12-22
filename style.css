@@ -30,24 +30,26 @@ body {
     padding-left: 0;
 }
 
-@media all and (max-width: 640px) {  
+@media all and (max-width: 768px) {  
     
     .navbar-brand{  
-      width: 640px; 
+      width: 100%; 
       margin:0 auto;
       text-align: center;
     }  
     
     .links{
-        width:640px;
+        width:100%;
         margin:0 auto;
         text-align: center;
     }
 
     .container{
-        widows: 640px;
+        width:90%;
         text-align: center;
         padding: 0;
+        margin-left: auto !important;
+        margin-right: auto !important;
     
     }
   
@@ -82,4 +84,9 @@ footer{
 .form-group{
 font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 color: #777777;
+}
+
+.card-img{
+    float:left !important;
+    padding-right:20px;
 }
