@@ -7,3 +7,6 @@ Bootstrap
 HTML
 
 CSS
+
+
+![alt text](https://github.com/RimaOdolski/Responsive-Portfolio-Bootstrap-/blob/master/Portfolio_LG.png "Portfolio on a large screen")
